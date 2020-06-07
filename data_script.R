@@ -5,8 +5,8 @@ library(stringr)
 library(stringi)
 
 #import data
-setwd("/Users/JR/Documents/Dropbox/Master HN/memoire/memoire_r")
-liste_json = list.files(path = "/Volumes/AJeanrenaud/Projets/artistes_img/#gerhardrichter", pattern="*UTC.json", full.names = TRUE)
+setwd("")
+liste_json = list.files(path = "", pattern="*UTC.json", full.names = TRUE)
 base_json = lapply(liste_json, fromJSON, flatten=TRUE)
 
 #lenght of raw data
