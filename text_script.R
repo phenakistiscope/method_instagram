@@ -6,8 +6,8 @@ library("tidyr")
 
 
 #import data txt
-setwd("/Users/JR/Documents/Dropbox/Master HN/memoire/memoire_r")
-liste_txt = list.files(path = "/Volumes/AJeanrenaud/Projets/artistes_img/#gerhardrichter", pattern="*UTC.txt", full.names = TRUE)
+setwd("")
+liste_txt = list.files(path = "", pattern="*UTC.txt", full.names = TRUE)
 base_txt = lapply(liste_txt, readLines)
 
 #convert to a string
