@@ -1,3 +1,3 @@
 # method_instagram
 
-Scripts linked to Imago presentation
+Scripts linked to Instagram Method for image circulation
